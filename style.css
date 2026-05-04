@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    text-align: center;
+    color: white;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* Game Section */
+.game {
+    display: none;
+}
+
+.choices button {
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Result */
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+}

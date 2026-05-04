@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors with Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGIN -->
+    <div id="loginBox" class="login-box">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Enter Username"><br>
+        <input type="password" id="password" placeholder="Enter Password"><br>
+        <button onclick="login()">Login</button>
+        <p id="loginMsg"></p>
+    </div>
+
+    <!-- GAME -->
+    <div id="gameSection" class="game">
+        <h1>Rock Paper Scissors</h1>
+
+        <div class="choices">
+            <button onclick="play('rock')">Rock</button>
+            <button onclick="play('paper')">Paper</button>
+            <button onclick="play('scissors')">Scissors</button>
+        </div>
+
+        <div class="result" id="result"></div>
+        <div id="score">Score: You 0 | Computer 0</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
